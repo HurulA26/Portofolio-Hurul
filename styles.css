@@ -296,3 +296,18 @@ footer {
     display: block;
   }
 }
+
+/* ===== Extra Responsive (HP kecil) ===== */
+@media (max-width: 500px) {
+  .cta-row {
+    flex-direction: column;   /* tombol ke bawah */
+    align-items: center;
+    gap: 0.8rem;
+    width: 100%;
+  }
+
+  .cta-row .btn {
+    width: 80%;               /* tombol lebih lebar di HP */
+    text-align: center;
+  }
+}
